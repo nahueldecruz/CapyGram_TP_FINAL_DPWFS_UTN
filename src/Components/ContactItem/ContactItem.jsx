@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 
 function ContactItem({id, name, img, lastTimeConnected, lastMessage, phoneNumber}) {
   
-  const imgDefault = "../../public/assets/images/contacts/default-image.png"
+  const imgDefault = "/assets/images/contacts/default-image.png"
 
   return (
     <div className='contact'>

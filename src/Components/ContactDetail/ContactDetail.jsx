@@ -5,7 +5,7 @@ import { LuArrowLeft, LuBan, LuBell, LuBookMarked, LuBookUser, LuClock9, LuEllip
 import DropDownMenu from '../DropDownMenu/DropDownMenu';
 
 function ContactDetail({id, info, name, img, phoneNumber}) {
-  const imgDefault = "../../public/assets/images/contacts/default-image.png";
+  const imgDefault = "/assets/images/contacts/default-image.png";
 
   return (
     <div className='contact_detail'>

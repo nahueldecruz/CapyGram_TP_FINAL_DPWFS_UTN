@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 import DropDownMenu from '../DropDownMenu/DropDownMenu';
 
 function ChatScreenHeader({id, name, img, lastTimeConnected, phoneNumber}) {
-    const imgDefault = "../../public/assets/images/contacts/default-image.png";
+    const imgDefault = "/assets/images/contacts/default-image.png";
     return (
         <div className='chat_screen-header'>
             <Link to={"/contacts"}>

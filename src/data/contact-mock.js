@@ -8,7 +8,7 @@ const mock_data = {
       phoneNumber: "11 2475-5655",
       info: "Hoy consultas de 10:00 a 17:00hs",
       lastTimeConnected: "online",
-      img: "../../public/assets/images/contacts/45c5390d-704c-4450-8540-d54a6ea0812e.png",
+      img: "/assets/images/contacts/45c5390d-704c-4450-8540-d54a6ea0812e.png",
       messagesList: [
         { id: 1, sender: "OTHER", time: "08:25", text: "¿Vas a venir al turno hoy?", status: "seen" },
         { id: 2, sender: "USER", time: "08:28", text: "Sí, tipo 9 estoy allá.", status: "seen" },
@@ -39,7 +39,7 @@ const mock_data = {
       phoneNumber: "11 3443-2211",
       info: "Con amor, siempre 💚",
       lastTimeConnected: "07:15",
-      img: "../../public/assets/images/contacts/6f9d4e0e-ad22-40a3-9e0e-dba909bc42a9.png",
+      img: "/assets/images/contacts/6f9d4e0e-ad22-40a3-9e0e-dba909bc42a9.png",
       messagesList: [
         { id: 1, sender: "OTHER", time: "06:55", text: "¿Comiste algo antes de salir?", status: "seen" },
         { id: 2, sender: "USER", time: "07:00", text: "Sí, ma. Me hice unas hojitas con pastito 🥗", status: "seen" },
@@ -57,7 +57,7 @@ const mock_data = {
       phoneNumber: "11 6799-4433",
       info: "Estudios legales Capy & Asociados",
       lastTimeConnected: "online",
-      img: "../../public/assets/images/contacts/9fe05ef4-adab-4591-a458-18ef1689a55b.png",
+      img: "/assets/images/contacts/9fe05ef4-adab-4591-a458-18ef1689a55b.png",
       messagesList: [
         { id: 1, sender: "USER", time: "08:00", text: "Hola doctor, ¿cómo va?", status: "seen" },
         { id: 2, sender: "OTHER", time: "08:01", text: "Buen día. ¿Todo bien por allá?", status: "seen" },
@@ -107,7 +107,7 @@ const mock_data = {
       phoneNumber: "11 5438-9988",
       info: "😎 El pastito de ayer estaba épico",
       lastTimeConnected: "hace 3 dias",
-      img: "../../public/assets/images/contacts/37bc3e2f-b427-40ac-9626-66cb55a36533.png",
+      img: "/assets/images/contacts/37bc3e2f-b427-40ac-9626-66cb55a36533.png",
       messagesList: [
         { id: 1, sender: "USER", time: "09:40", text: "¿Hoy repetimos caminata por la laguna?", status: "seen" },
         { id: 2, sender: "OTHER", time: "09:42", text: "Sí, pero traé mate esta vez 😂", status: "seen" },
@@ -120,7 +120,7 @@ const mock_data = {
       phoneNumber: "11 4567-1234",
       info: "Oficina central - Supervisora de pastizales",
       lastTimeConnected: "11:03",
-      img: "../../public/assets/images/contacts/187de806-6de1-4ff3-9e17-6a425f7ea82a.png",
+      img: "/assets/images/contacts/187de806-6de1-4ff3-9e17-6a425f7ea82a.png",
       messagesList: [
         { id: 1, sender: "OTHER", time: "10:35", text: "¿Terminaste el informe de territorios?", status: "seen" },
         { id: 2, sender: "USER", time: "10:36", text: "Casi. Me falta revisar la zona sur del pantano", status: "seen" },
@@ -183,7 +183,7 @@ const mock_data = {
     phoneNumber: "11 8923-1234",
     info: "Futuro desarrollador web!!! <3",
     lastTimeConnected: "online",
-    img: "../../public/assets/images/contacts/cd545439-721e-4ac8-90d8-083212e5dadd.png",
+    img: "/assets/images/contacts/cd545439-721e-4ac8-90d8-083212e5dadd.png",
   }
 };
 
