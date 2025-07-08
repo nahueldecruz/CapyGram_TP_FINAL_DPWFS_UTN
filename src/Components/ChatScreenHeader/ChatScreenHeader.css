@@ -1,0 +1,119 @@
+.chat_screen-header{
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    background-color: var(--color-primary);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.chat_screen-header-icon{
+    font-size: var(--font-size-xxl);
+    color: var(--color-neutral);
+}
+
+.chat_screen-header-actions_container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.chat_screen-header-action-icon{
+    font-size: var(--font-size-xxl);
+    color: var(--color-neutral);
+}
+
+.chat_screen-header-action-icon:nth-child(2){
+    font-size: var(--font-size-xl);
+}
+
+.chat_screen-header_profile{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.chat_screen-header-text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    color: var(--color-neutral);
+}
+
+.chat_screen-header-name{
+    font-size: var(--font-size-md);
+    font-weight: 700;
+}
+
+.chat_screen-header-last_time_connected{
+    font-size: var(--font-size-sm);
+}
+
+.chat_screen-header-image{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) {
+    .chat_screen-header{
+        justify-content: start;
+        gap: 2rem;
+        padding: 0.5rem 1rem 0.5rem 1.5rem;
+    }
+
+    .chat_screen-header-image{
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .chat_screen-header-name{
+        font-size: var(--font-size-xl);
+    }
+
+    .chat_screen-header-last_time_connected{
+        font-size: var(--font-size-md);
+    }
+
+    .chat_screen-header-actions_container{
+       margin-left: auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .chat_screen-header{    
+        height: 8rem;
+    }
+
+    .chat_screen-header-icon{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .chat_screen-header-name{
+        font-size: var(--font-size-xxl);
+        font-weight: 700;
+    }
+
+    .chat_screen-header-last_time_connected{
+        font-size: var(--font-size-xl);
+    }
+
+    .chat_screen-header-image{
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .chat_screen-header-action-icon{
+        font-size: var(--font-size-xxxl);
+    }
+
+    .chat_screen-header-action-icon:nth-child(2){
+        font-size: var(--font-size-xxl);
+    }
+}

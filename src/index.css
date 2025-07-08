@@ -1,0 +1,29 @@
+:root{
+  --color-primary: #A27B5D;
+  --color-secondaty: #f6eccb;
+  --color-neutral: #FFFFFF;
+  --color-dark: #513e2e;
+  --color-light: #a27b5d78;
+
+  --font-size-xs: 0.75rem; 
+  --font-size-sm: 0.875rem; 
+  --font-size-md: 1rem;     
+  --font-size-lg: 1.125rem; 
+  --font-size-xl: 1.25rem;  
+  --font-size-xxl: 1.5rem;   
+  --font-size-xxxl: 2rem;
+  --font-size-xxxxl: 3rem;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+::selection {
+  background-color: #e9e6b7;
+  color: #3a1d57;
+}

@@ -1,0 +1,46 @@
+.chat_screen_container{
+    position: relative;
+}
+
+.chat_screen{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
+    min-height: 100vh;
+    background-color: var(--color-secondaty);
+    position: relative;
+}
+
+@media screen and (min-width: 1024px) {
+    .chat_screen_desktop_container{
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+        overflow: hidden;
+        max-height: 100vh;
+    }
+    
+    .chat_screen_container{
+        flex: 2;
+        overflow-y: auto;
+        max-height: 100%;
+        border-left: 1px solid var(--color-light);
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+    .chat_screen_container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .chat_screen{
+        background-color: #e6dec4;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .chat_screen_container{
+        flex: 3;
+    }
+}
+

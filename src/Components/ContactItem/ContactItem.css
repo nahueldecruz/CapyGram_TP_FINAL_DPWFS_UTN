@@ -1,0 +1,67 @@
+.contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: 1px solid var(--color-light);
+    position: relative;
+}
+
+.contact_img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.contact_container_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact_info{
+    color: var(--color-dark);
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.contact_info-name{
+    font-weight: 700;
+    font-size: var(--font-size-md);
+}
+
+.contact_info-last_message{
+    font-size: var(--font-size-sm);
+}
+
+.contactcontact_info-last_time_conected{
+    color: var(--color-dark);
+    font-size: var(--font-size-xs);
+    text-align: end;
+}
+
+@media screen and (min-width: 1280px) {
+    .contact{
+        padding: 0.5rem;
+    }
+
+    .contact_img{
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .contact_info-name{
+        font-weight: 800;
+        font-size: var(--font-size-xl);
+    }
+
+    .contact_info-last_message{
+        font-size: var(--font-size-md);
+    }
+
+    .contactcontact_info-last_time_conected{
+        font-size: var(--font-size-md);
+    }
+}

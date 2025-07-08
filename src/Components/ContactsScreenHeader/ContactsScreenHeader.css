@@ -1,0 +1,70 @@
+.contacts_screen-header{
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 0.2rem;
+}
+
+.contacts_screen-header-title{
+    color: var(--color-neutral);
+    font-size: var(--font-size-xl);
+}
+
+.contacs_screen-header-icons{
+    display: flex;
+    align-self: flex-end;
+}
+
+.contacs_screen-header-icon_camera{
+    color: var(--color-neutral);
+    font-size: var(--font-size-xxl);
+}
+
+.contact_secreen-header-searcher{
+    width: 100%;
+}
+
+.contact_secreen-header-searcher-input{
+    width: 100%;
+    margin: 2;
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+    border: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .contacts_screen-header{
+        position: sticky;
+        left: 0;
+        top: 0;
+        z-index: 10;
+        height: 8rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .contacts_screen-header-title{
+        font-size: var(--font-size-xxl);
+    }
+ 
+    .contacs_screen-header-icon_camera{
+        font-size: var(--font-size-xxxl);
+    }
+
+    .contacs_screen-header-icons{
+        display: flex;
+        align-self: flex-end;
+    }
+
+    .contact_secreen-header-searcher-input{
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+    }
+
+    .contact_secreen-header-searcher-input::placeholder{
+        font-size: var(--font-size-xl);
+    }
+}

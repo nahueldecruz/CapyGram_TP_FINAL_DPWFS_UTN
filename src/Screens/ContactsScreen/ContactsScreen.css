@@ -1,0 +1,46 @@
+.contact_screen_desktop_container{
+    display: flex;
+    position: relative;
+}
+
+.contact_screen-contacts{
+    background-color: var(--color-secondaty);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    min-height: 100vh;
+}
+
+@media screen and (min-width: 1024px) {
+    .contact_screen_desktop_container{
+        overflow: hidden;
+        max-height: 100vh;
+    }
+
+    .contact_screen{
+        flex: 1;
+        overflow-y: auto;
+        max-height: 100%;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+    .contact_screen::-webkit-scrollbar {
+        display: none;
+    }
+
+    .contact_screen-chat_default{
+        flex: 2;
+        background-color: #e6dec4;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .contact_screen{
+        flex: 2;
+    }
+
+    .contact_screen-chat_default{
+        flex: 3;
+    }
+}

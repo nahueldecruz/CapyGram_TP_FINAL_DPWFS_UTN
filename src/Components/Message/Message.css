@@ -1,0 +1,104 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+.message{
+    display: inline-flex;
+    flex-direction: row;
+    max-width: 80%;
+    padding: 0.5rem 1.5rem 1rem 0.5rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    align-content: space-between;
+    position: relative;
+}
+
+.message_text{
+    word-wrap: break-word;
+    min-width: 0;
+}
+
+.message--user{
+    background-color: var(--color-dark);
+    color: var(--color-neutral);
+}
+
+.message--other{
+    background-color: var(--color-primary);
+    color: var(--color-dark);
+    align-self: start;
+}
+
+.message--other .bi-check-all{
+    display: none;
+}
+
+.message--other .bi-check{
+    display: none;
+}
+
+.message_footer{
+    display: inline-flex;
+    padding: 0.5rem 0 0 0;
+    margin-left: 0.5rem;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.65rem;
+    position: absolute;
+    right: 0.35rem;
+    bottom: 0;
+}
+
+.message_time{
+    color: var(--color-neutral);
+}
+
+.message_status{
+    font-size: var(--font-size-md);
+}
+
+.message_status-delivered, .message_status-sent{
+    color: rgb(134, 133, 133);
+}
+
+.message_status-seen .bi-check{
+    display: none;
+}
+
+.message_status-delivered .bi-check{
+    display: none;
+}
+
+.message_status-sent .bi-check-all{
+    display: none;
+}
+
+.message_button-delete{
+    display: inline-block;
+    position: absolute;
+    top: -0.4rem;
+    right: -0.1rem;
+    font-size: var(--font-size-sm);
+    color: var(--color-neutral);
+}
+
+@media screen and (min-width: 1280px) {
+    .message{
+        padding: 1rem 2rem 1.5rem 1rem;
+    }
+
+    .message_text{
+        font-size: var(--font-size-xl);
+    }
+
+    .message_time{
+        font-size: var(--font-size-md);
+    }
+
+    .message_status{
+        font-size: var(--font-size-xl);
+    }
+
+    .message_button-delete{
+        font-size: var(--font-size-md);
+        top: -0.6rem;
+    }
+}
